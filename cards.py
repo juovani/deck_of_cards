@@ -23,8 +23,8 @@ class Deck:
                 self.cards.append(Card(i, x))
 
     def print_deck(self):
-        for card in self.cards:
-            print(card)
+        for deck_card in self.cards:
+            print(deck_card)
 
     def add(self, card):
         self.cards.append(card)
