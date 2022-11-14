@@ -26,8 +26,8 @@ class Deck:
         for deck_card in self.cards:
             print(deck_card)
 
-    def add(self, card):
-        self.cards.append(card)
+    def add(self, cards):
+        self.cards.append(cards)
 
     def shuffle(self):
         random.shuffle(self.cards)
@@ -64,10 +64,3 @@ deck_cards.print_deck()
 card = deck_cards.draw()
 print("------")
 print(card)
-
-
-
-
-
-
-
